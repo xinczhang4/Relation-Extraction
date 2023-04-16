@@ -74,7 +74,6 @@ def is_available(pair,relation):
 # set search engine and api keys
 search_engine_id = '4bb444072b2573605'
 api_key = 'AIzaSyCoZ-0Vllrj5DHiEdjdDtYCD1AkPR2tTOs'
-# openai.api_key = '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'
 entities_of_interest = ["PERSON", "CITY"]
 spanbert = SpanBERT("./pretrained_spanbert")  
 # Using spaCy to split sentence and recognize entities
